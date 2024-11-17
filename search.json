@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "mrcnn-text-segmentation",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "mrcnn-text-segmentation"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "mrcnn-text-segmentation",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall mrcnn_text_segmentation in Development mode\n# make sure mrcnn_text_segmentation package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to mrcnn_text_segmentation\n$ nbdev_prepare",
+    "crumbs": [
+      "mrcnn-text-segmentation"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "mrcnn-text-segmentation",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/sethdroberts/mrcnn-text-segmentation.git\nor from conda\n$ conda install -c sethdroberts mrcnn_text_segmentation\nor from pypi\n$ pip install mrcnn_text_segmentation\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "mrcnn-text-segmentation"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "mrcnn-text-segmentation",
+    "section": "How to use",
+    "text": "How to use\nStep 1: Set up and activate venv\n\n# python -m venv venv/\n# source venv/bin/activate\n\nStep 2: Install requirements\n\n# pip install -r requirements.txt\n\nStep 3: Install nbdev hooks\n\n# nbdev_install_hooks\n\nStep 4: Install Jupyter kernel for venv\n\n# ipython kernel install --user --name=venv\n\nStep 5: Switch kernel for notebook to “venv”\nDo all coding in 00.core module until I figure out how to use multiple modules. ALWAYS use branches for everything. If I install any large files (100MB or more) outside of packages, do the following:\nInstall Homebrew (follow instructions):\n\n# /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\nInstall git lfs\n\n# brew install git-lfs\n# git lfs install\n# git lfs track \"*.[extension]\"\n\nIf already committed files, will need to migrate. Make sure to only migrate the specific file. LFS will mess up Jupyter notebooks, etc.\nBefore committing:\n\n# nbdev_prepare - for setting up nbdev\n# pip freeze &gt; requirements.txt - for adding any new requirements from venv",
+    "crumbs": [
+      "mrcnn-text-segmentation"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
