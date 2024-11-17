@@ -1,0 +1,1 @@
+{"epoch": 0, "train_loss": 0.6379413455724716, "valid_loss": 0.24936212040483952, "learning_rate": 2.7942822745440945e-06, "model_architecture": "maskrcnn_resnet50_fpn_v2"}
