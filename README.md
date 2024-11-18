@@ -78,13 +78,13 @@ Step 3: Install nbdev hooks
 # nbdev_install_hooks
 ```
 
-Step 4: Install Jupyter kernel for venv
+Step 3: Switch kernel for notebook to “venv”
+
+Step 5: Install Jupyter kernel for venv
 
 ``` python
 # ipython kernel install --user --name=venv
 ```
-
-Step 5: Switch kernel for notebook to “venv”
 
 Do all coding in 00.core module until I figure out how to use multiple
 modules. ALWAYS use branches for everything. If I install any large
@@ -106,6 +106,8 @@ Install git lfs
 
 If already committed files, will need to migrate. Make sure to only
 migrate the specific file. LFS will mess up Jupyter notebooks, etc.
+
+The models are large, and each time you run them, you create another version. You have a 1GB limit. Delete unnecessary ones to save space.
 
 Before committing:
 
